@@ -4,8 +4,8 @@
   "description": "MYRE Software engineer test",
   "main": "index.js",
   "scripts": {
-    "test": "TZ=UTC ts-node-dev --project tsconfig.json -r tsconfig-paths/register -- test.ts",
-    "test:dev": "TZ=UTC ts-node-dev --project tsconfig.json -r tsconfig-paths/register --respawn --inspect-brk -- test.ts -k"
+    "test": "ts-node-dev --project tsconfig.json -r tsconfig-paths/register -- test.ts",
+    "test:dev": "ts-node-dev --project tsconfig.json -r tsconfig-paths/register --respawn --inspect-brk -- test.ts -k"
   },
   "repository": {
     "type": "git",
